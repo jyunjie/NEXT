@@ -8,26 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		28B1D63F1DFBCC16002C6C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1D63E1DFBCC16002C6C48 /* AppDelegate.swift */; };
-		28B1D6411DFBCC16002C6C48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1D6401DFBCC16002C6C48 /* ViewController.swift */; };
+		28B1D6411DFBCC16002C6C48 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1D6401DFBCC16002C6C48 /* LoginViewController.swift */; };
 		28B1D6441DFBCC16002C6C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B1D6421DFBCC16002C6C48 /* Main.storyboard */; };
-		28B1D6471DFBCC16002C6C48 /* NEXT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28B1D6451DFBCC16002C6C48 /* NEXT.xcdatamodeld */; };
 		28B1D6491DFBCC16002C6C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B1D6481DFBCC16002C6C48 /* Assets.xcassets */; };
 		28B1D64C1DFBCC16002C6C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B1D64A1DFBCC16002C6C48 /* LaunchScreen.storyboard */; };
 		28B1D6541DFBD200002C6C48 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28B1D6531DFBD1FF002C6C48 /* GoogleService-Info.plist */; };
 		43F144CA3526FE709C9AB522 /* Pods_NEXT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E960BE902A52D85C55F8034 /* Pods_NEXT.framework */; };
+		44CE03611DFBD6210072BB7E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE03601DFBD6210072BB7E /* SignUpViewController.swift */; };
+		44CE03631DFBDED50072BB7E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE03621DFBDED50072BB7E /* ProfileViewController.swift */; };
+		44CE03651DFBDFAC0072BB7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE03641DFBDFAC0072BB7E /* HomeViewController.swift */; };
+		44CE03671DFBE1190072BB7E /* JoinEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE03661DFBE1190072BB7E /* JoinEventViewController.swift */; };
+		44CE03691DFBF95C0072BB7E /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE03681DFBF95C0072BB7E /* CheckInViewController.swift */; };
+		44CE036B1DFBF9840072BB7E /* EventContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE036A1DFBF9840072BB7E /* EventContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28B1D63B1DFBCC16002C6C48 /* NEXT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEXT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B1D63E1DFBCC16002C6C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28B1D6401DFBCC16002C6C48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28B1D6401DFBCC16002C6C48 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		28B1D6431DFBCC16002C6C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		28B1D6461DFBCC16002C6C48 /* NEXT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NEXT.xcdatamodel; sourceTree = "<group>"; };
 		28B1D6481DFBCC16002C6C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B1D64B1DFBCC16002C6C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28B1D64D1DFBCC16002C6C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28B1D6531DFBD1FF002C6C48 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		28B2B205E1764055604CA76E /* Pods-NEXT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEXT.release.xcconfig"; path = "Pods/Target Support Files/Pods-NEXT/Pods-NEXT.release.xcconfig"; sourceTree = "<group>"; };
+		44CE03601DFBD6210072BB7E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		44CE03621DFBDED50072BB7E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		44CE03641DFBDFAC0072BB7E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		44CE03661DFBE1190072BB7E /* JoinEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinEventViewController.swift; sourceTree = "<group>"; };
+		44CE03681DFBF95C0072BB7E /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		44CE036A1DFBF9840072BB7E /* EventContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventContactsViewController.swift; sourceTree = "<group>"; };
 		53935115C7838A1C4102C2B8 /* Pods-NEXT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEXT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NEXT/Pods-NEXT.debug.xcconfig"; sourceTree = "<group>"; };
 		7E960BE902A52D85C55F8034 /* Pods_NEXT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEXT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -66,13 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				28B1D63E1DFBCC16002C6C48 /* AppDelegate.swift */,
-				28B1D6401DFBCC16002C6C48 /* ViewController.swift */,
+				28B1D6401DFBCC16002C6C48 /* LoginViewController.swift */,
+				44CE03601DFBD6210072BB7E /* SignUpViewController.swift */,
+				44CE03621DFBDED50072BB7E /* ProfileViewController.swift */,
+				44CE03641DFBDFAC0072BB7E /* HomeViewController.swift */,
+				44CE03661DFBE1190072BB7E /* JoinEventViewController.swift */,
+				44CE03681DFBF95C0072BB7E /* CheckInViewController.swift */,
+				44CE036A1DFBF9840072BB7E /* EventContactsViewController.swift */,
 				28B1D6531DFBD1FF002C6C48 /* GoogleService-Info.plist */,
 				28B1D6421DFBCC16002C6C48 /* Main.storyboard */,
 				28B1D6481DFBCC16002C6C48 /* Assets.xcassets */,
 				28B1D64A1DFBCC16002C6C48 /* LaunchScreen.storyboard */,
 				28B1D64D1DFBCC16002C6C48 /* Info.plist */,
-				28B1D6451DFBCC16002C6C48 /* NEXT.xcdatamodeld */,
 			);
 			path = NEXT;
 			sourceTree = "<group>";
@@ -218,9 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B1D6411DFBCC16002C6C48 /* ViewController.swift in Sources */,
-				28B1D6471DFBCC16002C6C48 /* NEXT.xcdatamodeld in Sources */,
+				44CE03651DFBDFAC0072BB7E /* HomeViewController.swift in Sources */,
+				28B1D6411DFBCC16002C6C48 /* LoginViewController.swift in Sources */,
+				44CE03631DFBDED50072BB7E /* ProfileViewController.swift in Sources */,
+				44CE03671DFBE1190072BB7E /* JoinEventViewController.swift in Sources */,
+				44CE036B1DFBF9840072BB7E /* EventContactsViewController.swift in Sources */,
+				44CE03611DFBD6210072BB7E /* SignUpViewController.swift in Sources */,
 				28B1D63F1DFBCC16002C6C48 /* AppDelegate.swift in Sources */,
+				44CE03691DFBF95C0072BB7E /* CheckInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,19 +407,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		28B1D6451DFBCC16002C6C48 /* NEXT.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				28B1D6461DFBCC16002C6C48 /* NEXT.xcdatamodel */,
-			);
-			currentVersion = 28B1D6461DFBCC16002C6C48 /* NEXT.xcdatamodel */;
-			path = NEXT.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 28B1D6331DFBCC16002C6C48 /* Project object */;
 }
