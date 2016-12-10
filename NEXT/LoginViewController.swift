@@ -7,19 +7,36 @@
 //
 
 import UIKit
+//import Firebase
 
 class LoginViewController: UIViewController {
-
+    
+    var user = User()
+    @IBOutlet weak var usernameTextField: UITextField!
+    
+    //var firebaseRef = FIRDatabase.database().reference()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func onEnterBtnPressed(sender: UIButton) {
+        
+        if usernameTextField.text != "" {
+            user.name = usernameTextField.text!
+            print(user.name)
+        } else {
+            print("no name la")
+            let alertController = UIAlertController(title: "Oops", message: "You didn't enter a name", preferredStyle: .Alert)
+            let dismissAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+            alertController.addAction(dismissAction)
+            self.presentViewController(alertController, animated: true, completion: nil)
+        }
+       
     }
-
-
+    
+    
 }
 
