@@ -20,6 +20,9 @@
 		44CE03671DFBE1190072BB7E /* JoinEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE03661DFBE1190072BB7E /* JoinEventViewController.swift */; };
 		44CE03691DFBF95C0072BB7E /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE03681DFBF95C0072BB7E /* CheckInViewController.swift */; };
 		44CE036B1DFBF9840072BB7E /* EventContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE036A1DFBF9840072BB7E /* EventContactsViewController.swift */; };
+		44CE03741DFC0D420072BB7E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 44CE03731DFC0D420072BB7E /* .gitignore */; };
+		44CE03761DFC1EFB0072BB7E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE03751DFC1EFB0072BB7E /* User.swift */; };
+		44CE03781DFC3AF10072BB7E /* EventListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE03771DFC3AF10072BB7E /* EventListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		44CE03661DFBE1190072BB7E /* JoinEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinEventViewController.swift; sourceTree = "<group>"; };
 		44CE03681DFBF95C0072BB7E /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 		44CE036A1DFBF9840072BB7E /* EventContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventContactsViewController.swift; sourceTree = "<group>"; };
+		44CE03731DFC0D420072BB7E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		44CE03751DFC1EFB0072BB7E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		44CE03771DFC3AF10072BB7E /* EventListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListTableViewCell.swift; sourceTree = "<group>"; };
 		53935115C7838A1C4102C2B8 /* Pods-NEXT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEXT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NEXT/Pods-NEXT.debug.xcconfig"; sourceTree = "<group>"; };
 		7E960BE902A52D85C55F8034 /* Pods_NEXT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEXT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -57,6 +63,7 @@
 		28B1D6321DFBCC16002C6C48 = {
 			isa = PBXGroup;
 			children = (
+				44CE03731DFC0D420072BB7E /* .gitignore */,
 				28B1D63D1DFBCC16002C6C48 /* NEXT */,
 				28B1D63C1DFBCC16002C6C48 /* Products */,
 				D26B220F95DD0DA25761CBCC /* Pods */,
@@ -83,10 +90,12 @@
 				44CE03661DFBE1190072BB7E /* JoinEventViewController.swift */,
 				44CE03681DFBF95C0072BB7E /* CheckInViewController.swift */,
 				44CE036A1DFBF9840072BB7E /* EventContactsViewController.swift */,
-				28B1D6531DFBD1FF002C6C48 /* GoogleService-Info.plist */,
+				44CE03751DFC1EFB0072BB7E /* User.swift */,
+				44CE03771DFC3AF10072BB7E /* EventListTableViewCell.swift */,
 				28B1D6421DFBCC16002C6C48 /* Main.storyboard */,
 				28B1D6481DFBCC16002C6C48 /* Assets.xcassets */,
 				28B1D64A1DFBCC16002C6C48 /* LaunchScreen.storyboard */,
+				28B1D6531DFBD1FF002C6C48 /* GoogleService-Info.plist */,
 				28B1D64D1DFBCC16002C6C48 /* Info.plist */,
 			);
 			path = NEXT;
@@ -172,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CE03741DFC0D420072BB7E /* .gitignore in Resources */,
 				28B1D64C1DFBCC16002C6C48 /* LaunchScreen.storyboard in Resources */,
 				28B1D6541DFBD200002C6C48 /* GoogleService-Info.plist in Resources */,
 				28B1D6491DFBCC16002C6C48 /* Assets.xcassets in Resources */,
@@ -238,7 +248,9 @@
 				28B1D6411DFBCC16002C6C48 /* LoginViewController.swift in Sources */,
 				44CE03631DFBDED50072BB7E /* ProfileViewController.swift in Sources */,
 				44CE03671DFBE1190072BB7E /* JoinEventViewController.swift in Sources */,
+				44CE03781DFC3AF10072BB7E /* EventListTableViewCell.swift in Sources */,
 				44CE036B1DFBF9840072BB7E /* EventContactsViewController.swift in Sources */,
+				44CE03761DFC1EFB0072BB7E /* User.swift in Sources */,
 				44CE03611DFBD6210072BB7E /* SignUpViewController.swift in Sources */,
 				28B1D63F1DFBCC16002C6C48 /* AppDelegate.swift in Sources */,
 				44CE03691DFBF95C0072BB7E /* CheckInViewController.swift in Sources */,

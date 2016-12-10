@@ -40,16 +40,25 @@ class CheckInViewController: UIViewController {
                 // Replace UIAlertActionStyle.Default by UIAlertActionStyle.default
                 let okAction = UIAlertAction(title: "OK", style: .Default) { (result : UIAlertAction) -> Void in
                     print("OK")
-//                    self.performSegueWithIdentifier("To sign in", sender: self)
+                    //                    self.performSegueWithIdentifier("To sign in", sender: self)
                     
-//                    https://developer.tm.com.my:8443/SMSSBV1/SMSImpl
+                    //                    https://developer.tm.com.my:8443/SMSSBV1/SMSImpl
                     let parameters : [String:AnyObject] = ["username":"ceo" , "password":"9b55148c9acf5d400756ec35eede5ee7e078b0ef","msgtype":"text","message":"testing1234","to":"01126247585","hashkey":"0b37adb0e4cbf0c55c2831e8ad2d9604cc620394"]
-                    let headers : [String:String] = ["APITokenId":"bCofwmznA3XCNNxlH68cpt5itMU=","PartnerId":"qyJQDhEri4dmHafDWULdGx7uxHg","PartnerTokenId":"XxmB+BkvKPJdS0//MWve2QfEtu0=","Content-Type":"application/json"]
-                
-                    Alamofire.request(.POST, "https://developer.tm.com.my:8443/SMSSBV1/SMSImpl/SMSImplRS/SendMessage", parameters: parameters, encoding:.JSON , headers: headers).response { response in
-                        print("done")
+                    let headers : [String:String] = ["APITokenId":"bCofwmznA3XCNNxlH68cpt5itMU=","PartnerId":"qyJQDhEri4dmHafDWULdGx7uxHg","PartnerTokenId":"XxmB+BkvKPJdS0//MWve2QfEtu0=","Content-Type": "application/json"]
+                    
+                    Alamofire.request(.POST,"https://developer.tm.com.my:8443/SMSSBV1/SMSImpl/SMSImplRS/SendMessage", parameters: parameters,encoding: .JSON, headers: headers).response {(response)  in
+                        
+                        
+                        
+                        
+                        
                     }
                     
+                    Alamofire.request(.POST, "https://developer.tm.com.my:8443/SMSSBV1/SMSImpl/SMSImplRS/SendMessage", headers: headers, parameters: parameters )
+                        .response{ request, response, JSON, error in
+                            
+                            print(NSString(data: request!.HTTPBody!, encoding:NSUTF8StringEncoding)!)
+                    }
                     
                 }
                 alertController.addAction(DestructiveAction)
@@ -58,4 +67,6 @@ class CheckInViewController: UIViewController {
             }
             }, error: nil)
     }
+    
+    
 }
