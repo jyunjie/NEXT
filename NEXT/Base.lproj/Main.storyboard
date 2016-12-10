@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LMz-sU-fwz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LMz-sU-fwz">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -155,7 +155,7 @@
                                         <rect key="frame" x="55" y="0.0" width="98.5" height="42"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
+                                        <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CNH-Il-NlV">
                                         <rect key="frame" x="83.5" y="52" width="41" height="20.5"/>
@@ -169,7 +169,7 @@
                                         <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Description" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zng-oD-mPv">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Description" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zng-oD-mPv">
                                         <rect key="frame" x="0.0" y="113" width="208" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="Nun-8M-fyS"/>
@@ -366,12 +366,38 @@
                     <view key="view" contentMode="scaleToFill" id="JmA-Hz-ySj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="room" translatesAutoresizingMaskIntoConstraints="NO" id="v0i-eT-pyZ">
+                                <rect key="frame" x="16" y="72" width="343" height="538"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DsL-Zc-j67">
+                                <rect key="frame" x="141" y="279" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="girl"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8tU-3B-YdF">
+                                <rect key="frame" x="141" y="175" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="boy"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xxn-7y-nr0">
+                                <rect key="frame" x="141" y="404" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="JJProfile"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="v0i-eT-pyZ" firstAttribute="top" secondItem="Ar8-RA-BXW" secondAttribute="bottom" constant="8" symbolic="YES" id="AWS-G6-C0M"/>
+                            <constraint firstItem="i3P-Q8-6yz" firstAttribute="top" secondItem="v0i-eT-pyZ" secondAttribute="bottom" constant="8" symbolic="YES" id="M2F-IG-thf"/>
+                            <constraint firstItem="v0i-eT-pyZ" firstAttribute="leading" secondItem="JmA-Hz-ySj" secondAttribute="leadingMargin" id="d11-v7-40D"/>
+                            <constraint firstItem="v0i-eT-pyZ" firstAttribute="trailing" secondItem="JmA-Hz-ySj" secondAttribute="trailingMargin" id="q2p-Ag-qSL"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bii-eq-BWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4175" y="-501"/>
+            <point key="canvasLocation" x="4173.6000000000004" y="-501.49925037481262"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="xi3-VQ-6IM">
@@ -414,10 +440,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="JJProfile" width="693" height="693"/>
+        <image name="boy" width="150" height="200"/>
         <image name="eventicon" width="30" height="30"/>
+        <image name="girl" width="131" height="136"/>
         <image name="id3icon" width="30" height="30"/>
         <image name="joinicon" width="30" height="30"/>
         <image name="print2" width="147" height="147"/>
+        <image name="room" width="350" height="800"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="c01-RL-KdF"/>

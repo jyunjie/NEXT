@@ -21,6 +21,7 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
         
         profilePic.layer.cornerRadius = profilePic.frame.height/2
+        profilePic.layer.borderColor = UIColor(red: 255, green: 255, blue: 255, alpha: 1.0).CGColor
         profilePic.clipsToBounds = true
         profilePic.image = UIImage(named: "JJProfile")!
 
