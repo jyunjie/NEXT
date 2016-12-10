@@ -7,11 +7,9 @@ target 'NEXT' do
 
   # Pods for NEXT
 pod 'Firebase/Core'
-pod ‘Fusuma’
 pod ‘Firebase/Database’
 pod ‘Firebase/Auth’
 pod ‘Firebase/Storage’
-pod ‘SDWebImage’
 pod ‘Firebase’
 
 end
